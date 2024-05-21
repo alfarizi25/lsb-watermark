@@ -1,0 +1,384 @@
+.watermarking-transform-domain.watermarkingTransformSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, blue,rgb(255, 0, 255));
+  overflow: hidden;
+}
+.watermarking-transform-domain .flexCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto 86px;
+  width: 1072px;
+  max-width: 85%;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol {
+    margin: 24px auto 80px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol {
+    margin: 24px auto 50px;
+  }
+}
+.watermarking-transform-domain .contentBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 15px 15px;
+}
+.watermarking-transform-domain .heroTitle{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 9px auto 0px;
+  font: 40px/1.25 'Helvetica' , Arial, serif;
+  color: white;
+  text-align: center;
+  font-weight: 1000;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+}
+p{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 9px auto 0px;
+  font: 300 15px/1.25 'Helvetica', Arial, serif;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .heroTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .heroTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .flexRow {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  margin: 31px 0px 0px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .flexRow {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px 20px;
+  }
+}
+.watermarking-transform-domain .contentBox1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  min-width: 0px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);;
+  border-radius: 15px 15px 15px 15px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .contentBox1 {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol1 {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 7px 0px;
+  margin: 11px 17px 24px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol1 {
+    margin: 11px 16px 24px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol1 {
+    margin: 11px 8px 24px;
+  }
+}
+.watermarking-transform-domain .originalImageTitle {
+  position: relative;
+  font: 550 32px/1.25 'Helvetica', Arial, serif;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+
+
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .originalImageTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .originalImageTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .imagePlaceholder {
+  position: relative;
+  width: 100%;
+  min-height: 290px;
+  background-color: rgba(0, 0, 0, 0.167);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.watermarking-transform-domain .imagePlaceholder2 {
+  position: relative;
+  width: 100%;
+  min-height: 290px;
+  background-color:  rgba(0, 0, 0, 0.167);  ;
+  border-radius: 15px 15px 15px 15px;
+}
+.watermarking-transform-domain .processedImageTitle {
+  position: relative;
+  width: 193.9875030518px;
+  max-width: 85%;
+  font: 550 32px/1.25 'Helvetica', Arial, serif;  
+  color: black;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .processedImageTitle {
+    align-items: flex-start;
+    font-size: 36px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .processedImageTitle {
+    font-size: 32px;
+  }
+}
+.watermarking-transform-domain .controlPanelRow {
+  position: relative;
+  display: flex;
+  gap: 0px 20px;
+  margin: 34px 0px 0px 3px;
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .controlPanelRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 20px;
+  }
+}
+.watermarking-transform-domain .opacitySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 523px;
+  min-width: 0px;
+  background-color: #00000000;
+  border-radius: 15px 15px 15px 15px;
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .opacitySection {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 17px 22px 15px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol2 {
+    margin: 14px 16px 22px 15px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol2 {
+    margin: 14px 8px 22px;
+  }
+}
+.watermarking-transform-domain .flexRow2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 4px 8px 4px 25px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexRow2 {
+    margin: 4px 8px 4px 16px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexRow2 {
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    margin: 4px 8px;
+  }
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .opacityTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .opacityTitle {
+    font-size: 24px;
+  }
+}
+.watermarking-transform-domain .inputImageButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 300 25px/1.26 'Helvetica', Arial, serif;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+
+}
+.watermarking-transform-domain .inputWatermarkButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 23px 0px 0px;
+  font: 300 25px/1.25 'Helvetica', Arial, serif;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+  text-shadow: 0px 4px 4px rgba(2, 2, 2, 0.352);
+
+}
+
+@media (max-width: 991px) {
+  .watermarking-transform-domain .textInputSection {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.watermarking-transform-domain .flexCol3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 14px 18px 22px 17px;
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .flexCol3 {
+    margin: 14px 16px 22px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexCol3 {
+    margin: 14px 8px 22px;
+  }
+}
+.watermarking-transform-domain .flexRow3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 5px 8px 3px 11px;
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .flexRow3 {
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 383px) {
+  .watermarking-transform-domain .flexRow3 {
+    margin: 5px 8px 3px;
+  }
+}
+@media (max-width: 991px) {
+  .watermarking-transform-domain .inputTextTitle {
+    align-items: flex-start;
+    font-size: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .watermarking-transform-domain .inputTextTitle {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 45%;
+  }
+}
+@media (max-width: 575px) {
+  .watermarking-transform-domain .inputTextTitle {
+    width: auto;
+  }
+}
+@media (max-width: 479px) {
+  .watermarking-transform-domain .inputTextTitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .watermarking-transform-domain .textInputControl {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+.watermarking-transform-domain .processImageButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 0px;
+  font: 300 25px/1.25 'Helvetica', Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #003cff;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+
+}
+.watermarking-transform-domain .cekWatermark{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 23px 0px 0px;
+  font: 300 25px/1.25  'Helvetica', Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #003cff;
+  border-radius: 15px 15px 15px 15px;
+  padding: 4px 8px 4px 8px;
+}
+
+
+.watermarking-transform-domain .inputImageButton:hover,
+.watermarking-transform-domain .inputWatermarkButton:hover,
+.watermarking-transform-domain .processImageButton:hover,
+.watermarking-transform-domain .cekWatermark:hover {
+  transition: background-color 0.5s ease;
+  background-color: #000000; 
+  cursor: pointer;
+  color: gray;
+}
